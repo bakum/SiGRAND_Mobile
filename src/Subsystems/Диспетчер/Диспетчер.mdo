@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69279a81-7e57-4264-941c-0ddc8a68fe92">
+  <name>Диспетчер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диспетчер</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаСервисныеУслуги</picture>
+  </picture>
+  <content>Document.Заказы</content>
+</mdclass:Subsystem>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9479a9b7-ec05-400d-b8cd-49eb4d04f59c">
+  <name>Администрирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Администрирование48</picture>
+  </picture>
+  <content>Catalog.СтатусыЗаказов</content>
+  <content>DataProcessor.ПервыйСтарт</content>
+  <content>Catalog.Пользователи</content>
+  <content>CommonCommand.Синхронизировать</content>
+  <content>DataProcessor.ВызовВебСервисаPOST</content>
+  <content>Catalog.НастройкиSOAP</content>
+  <content>InformationRegister.ВерсииПодсистем</content>
+  <content>Constant.АвторизованныйПользователь</content>
+  <content>CommonCommand.НастройкиПрограммы</content>
+  <content>ExchangePlan.ОбменСОсновнойБазой</content>
+  <content>Enum.РолиПользователя</content>
+  <content>Catalog.Менеджеры</content>
+  <content>InformationRegister.НастройкиПользователя</content>
+  <content>Catalog.НастройкиREST</content>
+  <content>CommonCommand.СброситьВсеИзменения</content>
+  <content>DataProcessor.УдалениеПомеченныхДокументов</content>
+</mdclass:Subsystem>

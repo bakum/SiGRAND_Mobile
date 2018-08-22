@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0141cf2-ee81-4107-bd51-d71599ccc895">
+  <producedTypes>
+    <objectType typeId="9d04b09d-d0ec-402a-8d3d-3ca089124f89" valueTypeId="7be2e5a6-7538-47be-873e-06351316553e"/>
+    <managerType typeId="cb6827b3-632d-4532-a31b-15bf45e2bb87" valueTypeId="f5dd139d-a982-4f24-9324-048c2d329887"/>
+  </producedTypes>
+  <name>УдалениеПомеченныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удаление помеченных объектов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УдалениеПомеченныхДокументов.Form.Форма</defaultForm>
+  <tabularSections uuid="b95d5f70-048d-4b53-99de-458c8bd2de04">
+    <producedTypes>
+      <objectType typeId="c21ebc73-fa33-4023-baa6-063e4771d8bd" valueTypeId="a8414c0e-1c5d-43eb-b1fb-14245648da0e"/>
+      <rowType typeId="b465967e-6a89-4fa6-8c25-33b0ee0fe0d1" valueTypeId="2e0e4eb5-7c00-45f5-a64e-e907160d59bb"/>
+    </producedTypes>
+    <name>УдаляемыеОбъекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаляемые объекты</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="c7181587-ea3f-4be6-8704-575f0dbfa561">
+      <name>Удалять</name>
+      <synonym>
+        <key>ru</key>
+        <value>Удалять</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6a168714-ec19-44e7-990d-d94f4ef219a0">
+      <name>Ссылка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ссылка</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>AnyRef</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="659bc183-4fef-4c6b-a720-fa71e340675a">
+      <name>Метаданные</name>
+      <synonym>
+        <key>ru</key>
+        <value>Метаданные</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e88a5732-1799-4053-89b6-431b75299f2c">
+      <name>Удаляется</name>
+      <synonym>
+        <key>ru</key>
+        <value>Удаляется</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6d3f0b9e-790a-4aca-a0a0-a5fe1d8fb5ba">
+      <name>ИндексКартинки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Индекс картинки</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>1</precision>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="97cefc42-a045-4835-b298-3b357668ce60">
+      <name>НеУдаляемыхСсылок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Не удаляемых ссылок</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="52852149-834d-43e3-a9a5-e3975e61ab2a">
+      <name>Ссылок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ссылок</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="88a70001-3dcf-4cd8-b966-6e571e7cb640">
+      <name>ПредставлениеСсылки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление ссылки</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="2c52002a-0fa4-40a9-8abe-11d264fa61e3">
+    <producedTypes>
+      <objectType typeId="9b09792e-028d-4f05-b0cd-358d9cbaf27d" valueTypeId="42d55d71-a951-4e7d-abd7-4a7cf0bd4a86"/>
+      <rowType typeId="c67d4e55-b039-4db4-a2c4-3d1dc0b6cdf4" valueTypeId="afcbd6b8-9027-4720-9067-c21a6982a19f"/>
+    </producedTypes>
+    <name>СсылкиНаУдаляемыеОбъекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылки на удаляемые объекты</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="3309e02a-e72a-49d5-965c-256aac942985">
+      <name>Удалять</name>
+      <synonym>
+        <key>ru</key>
+        <value>Удалять</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="cfca2691-6866-445b-bd66-8128b8b31d0f">
+      <name>Ссылка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ссылка</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>AnyRef</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0f9ce9e5-4356-4819-8bfb-940b08e25776">
+      <name>Данные</name>
+      <synonym>
+        <key>ru</key>
+        <value>Данные</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>AnyRef</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6f922c41-b989-406f-b546-393d348d5e3c">
+      <name>Метаданные</name>
+      <synonym>
+        <key>ru</key>
+        <value>Метаданные</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f294e49d-f91f-4886-8a66-3ea2916f0b35">
+      <name>Удаляется</name>
+      <synonym>
+        <key>ru</key>
+        <value>Удаляется</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c98caccd-d57b-4618-bb4d-2efc2f269a0f">
+      <name>ИндексКартинки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Индекс картинки</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>1</precision>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="18335b04-54fc-4177-80a9-a4c7bf44d4f8">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

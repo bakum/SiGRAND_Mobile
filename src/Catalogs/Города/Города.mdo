@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c6d6702-35db-47fc-8077-0641e39be988">
+  <producedTypes>
+    <objectType typeId="baef3950-6492-4409-9149-b3c0a6c6f0dc" valueTypeId="e1b4b725-da25-40aa-ab6e-ccd357268fe4"/>
+    <refType typeId="f277b6af-85ab-46a3-99ee-8ec394f5e743" valueTypeId="82c9d35e-5697-4dac-a9a1-e76ee89ebfc8"/>
+    <selectionType typeId="20e41f69-b517-4059-9bbc-355714bf7b57" valueTypeId="549725cc-eb29-491a-bcde-f1635295bd5b"/>
+    <listType typeId="667c9cb3-a369-453c-80c7-be454d999343" valueTypeId="58bfe660-8bfe-47bf-87c6-5315efeba8dc"/>
+    <managerType typeId="ae1b7cd7-aa72-46c8-9370-636343488115" valueTypeId="4bebe6d7-35d5-4a1d-ab77-c399bb11e5c0"/>
+  </producedTypes>
+  <name>Города</name>
+  <synonym>
+    <key>ru</key>
+    <value>Города</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Города.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Города.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Город</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Города.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Города.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="5acd4a79-b854-4acd-b2be-d2afa0e30934">
+    <name>Ид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ид</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="b80acd44-bb95-42bc-88ad-ab9839cfd3fe">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="810664dd-9b4b-437a-88dd-b5599696b6b2">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

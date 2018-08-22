@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04422490-b528-4c58-b11b-d37ecfdbe458">
+  <producedTypes>
+    <objectType typeId="7b85a439-eaf1-41e2-b70d-c267c59db920" valueTypeId="9aada0f0-0fb4-466c-8725-4dd42584217d"/>
+    <refType typeId="e2c89d67-d001-4eb9-918f-2480df2ed41a" valueTypeId="ff7f8fc7-0ac5-4a48-9f4e-362a946031ad"/>
+    <selectionType typeId="591e0224-3b42-44dc-a645-a4b96b38966c" valueTypeId="733453cd-b768-48d9-98d6-f9f5c44447a3"/>
+    <listType typeId="3f6214d6-ac3f-4312-bfb5-973939b0360d" valueTypeId="83fc5bb9-977a-4370-aeac-a7bde575573d"/>
+    <managerType typeId="a98a87ac-b8be-471b-91f3-807c5278714d" valueTypeId="8e218db6-8629-493f-94d7-c2a13602faa3"/>
+  </producedTypes>
+  <name>Менеджеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Менеджеры</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Менеджеры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Менеджеры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Менеджер</value>
+  </extendedObjectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Catalog.Менеджеры.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="0aa3e185-f848-4218-bf4b-9025791be86d">
+    <name>Ид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ид</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="3dcf1350-635b-43c1-9c00-4e56403f9b8e">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="ae7c1331-13f6-4da7-ac06-0f5b4c7fdf10">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

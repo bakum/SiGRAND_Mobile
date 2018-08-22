@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d114686-7e71-474d-9014-ef9df35aa10f">
+  <producedTypes>
+    <objectType typeId="99e1c3f4-60ef-4f3a-98f9-97eef4d47299" valueTypeId="53923275-2b41-404a-b38f-d954f5f6c6cb"/>
+    <refType typeId="90e12be4-7dec-4ea4-9fb1-e7e0f0ff3342" valueTypeId="ad2fdecc-00b1-4178-84ad-8c4f688f5e07"/>
+    <selectionType typeId="c2651ec5-8b93-4aa0-98f0-5802772364ad" valueTypeId="86364a5c-3f1d-4ba3-af89-22cd758035b1"/>
+    <listType typeId="1bc20a50-4830-4537-842d-b1d44cbb64c0" valueTypeId="52cc5cf9-20ef-4a54-83d3-131db83a845e"/>
+    <managerType typeId="a4bc7a94-fee3-4076-8a4f-f821d431acaf" valueTypeId="07506a78-3eb1-485b-a2e0-eb73a58ed852"/>
+  </producedTypes>
+  <name>СтатусыЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заказов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатусыЗаказов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтатусыЗаказов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Статус</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="609cc403-e4a1-4cc0-b1b1-3263122a3be8">
+      <name>Замер</name>
+      <description>Замер</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="5b3f120b-0f9a-40a6-97c1-c34ec4ffa59b">
+      <name>Новый</name>
+      <description>Новый</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.СтатусыЗаказов.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="7bec40b3-25c9-4a55-b85d-7225f9e33e5e">
+    <name>Ид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ид</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="c7713776-6283-4928-910a-682b21671262">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="2d5618af-fa60-499f-8d2f-4629b96ef3fc">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

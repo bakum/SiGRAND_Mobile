@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="663bf8ea-644c-494b-8896-04970bfcc7a0">
+  <name>SigrandMobile</name>
+  <synonym>
+    <key>ru</key>
+    <value>SiGRAND Mobile</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="e9d868bb-fbe8-4592-8b2b-60b2f7a9eebf"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="52353d46-7338-46dd-8cfa-7617ad9bcd5c"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="11196f39-72ba-4ff9-af81-7627f8b650d2"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="3e852732-0577-4d05-834f-4b04d0464c44"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="7d340d8b-92ff-425a-ba20-a7d625260f69"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="4dcc3679-e805-4b42-9fdd-20aa97925129"/>
+  <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.9</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.Пользователь</defaultRoles>
+  <vendor>BMExpert</vendor>
+  <version>1.0.0.1</version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <requiredMobileApplicationPermissions>Location</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>Contacts</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>Calendars</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>Telephony</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>PushNotification</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>LocalNotification</requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <detailedInformation>
+    <key>ru</key>
+    <value>SiGRAND Mobile by BMExpert 2016</value>
+  </detailedInformation>
+  <copyright>
+    <key>ru</key>
+    <value>BMExpert</value>
+  </copyright>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <interfaceCompatibilityMode>Version8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.9</compatibilityMode>
+  <languages uuid="12038ff7-fbfe-4e73-a0ff-244f6ce14499">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Замеры</subsystems>
+  <subsystems>Subsystem.Диспетчер</subsystems>
+  <subsystems>Subsystem.Справочники</subsystems>
+  <subsystems>Subsystem.Администрирование</subsystems>
+  <commonPictures>CommonPicture.Администрирование48</commonPictures>
+  <commonPictures>CommonPicture.ПодсистемаМаркетингИПродажи</commonPictures>
+  <commonPictures>CommonPicture.ПодсистемаРаботаСФайлами</commonPictures>
+  <commonPictures>CommonPicture.ПодсистемаСервисныеУслуги</commonPictures>
+  <commonPictures>CommonPicture.ЗагрузкаДанных32</commonPictures>
+  <commonPictures>CommonPicture.ПодсистемаПредприятиеИНастройки</commonPictures>
+  <commonPictures>CommonPicture.СинхронизацияДанныхПодсистема</commonPictures>
+  <commonPictures>CommonPicture.СобытиеИсходящееТелефонныйЗвонок</commonPictures>
+  <commonPictures>CommonPicture.ПодатьИдею</commonPictures>
+  <commonPictures>CommonPicture.ПодсистемаАнализ</commonPictures>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.Замерщик</roles>
+  <roles>Role.Диспетчер</roles>
+  <roles>Role.Пользователь</roles>
+  <roles>Role.Директор</roles>
+  <commonModules>CommonModule.ОбменДаннымиКлиент</commonModules>
+  <commonModules>CommonModule.ОбменДаннымиСервер</commonModules>
+  <commonModules>CommonModule.МобильноеПриложениеСервер</commonModules>
+  <commonModules>CommonModule.ОбновлениеСлужебный</commonModules>
+  <commonModules>CommonModule.Пользователя</commonModules>
+  <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
+  <exchangePlans>ExchangePlan.ОбменСОсновнойБазой</exchangePlans>
+  <commonCommands>CommonCommand.Синхронизировать</commonCommands>
+  <commonCommands>CommonCommand.НастройкиПрограммы</commonCommands>
+  <commonCommands>CommonCommand.СброситьВсеИзменения</commonCommands>
+  <constants>Constant.АвторизованныйПользователь</constants>
+  <commonForms>CommonForm.РабочийСтол</commonForms>
+  <commonForms>CommonForm.НастройкиПрограммы</commonForms>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.КонтактнаяИнформация</catalogs>
+  <catalogs>Catalog.СтатусыЗаказов</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.НастройкиSOAP</catalogs>
+  <catalogs>Catalog.Менеджеры</catalogs>
+  <catalogs>Catalog.Кассы</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.НастройкиREST</catalogs>
+  <catalogs>Catalog.Города</catalogs>
+  <catalogs>Catalog.ИнформационныеКарты</catalogs>
+  <documents>Document.Заказы</documents>
+  <documents>Document.Расчеты</documents>
+  <enums>Enum.РолиПользователя</enums>
+  <dataProcessors>DataProcessor.ПервыйСтарт</dataProcessors>
+  <dataProcessors>DataProcessor.ВызовВебСервисаPOST</dataProcessors>
+  <dataProcessors>DataProcessor.УдалениеПомеченныхДокументов</dataProcessors>
+  <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
+  <informationRegisters>InformationRegister.НастройкиПользователя</informationRegisters>
+</mdclass:Configuration>

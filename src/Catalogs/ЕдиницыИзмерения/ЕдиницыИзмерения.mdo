@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="deb4e3a9-3b99-485c-ba58-68b95677a836">
+  <producedTypes>
+    <objectType typeId="954d1055-989b-4a96-8408-e507e4ae9d4c" valueTypeId="f9c287bd-174c-4728-8121-aec8ead50592"/>
+    <refType typeId="288c6164-576a-447b-9565-027fd2a1908f" valueTypeId="7a7930f6-2d7b-4bfe-a539-4e30ccbf0118"/>
+    <selectionType typeId="af85511d-83c2-4f2a-ac29-ea7bee64de2a" valueTypeId="4c140e91-6ebb-441d-a4e5-2cf12945343a"/>
+    <listType typeId="2cbd3882-2963-4ceb-b624-8330f5d32466" valueTypeId="68e83a6e-c1ea-42c6-939f-9438216f15de"/>
+    <managerType typeId="dbbd4db4-bb6c-4389-99af-1284d8d8d906" valueTypeId="c38cd594-3bd9-42dd-9435-d57feaad5172"/>
+  </producedTypes>
+  <name>ЕдиницыИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерения</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Единица измерения</value>
+  </extendedObjectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="7bfcb938-4b6b-455c-8833-da71c0a0ec11">
+    <name>Ид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ид</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:Catalog>

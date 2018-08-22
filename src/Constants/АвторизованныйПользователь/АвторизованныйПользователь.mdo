@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3097d1bc-5f72-419d-8175-11aabf6f67d7">
+  <producedTypes>
+    <managerType typeId="be9d81f7-da1f-40ed-b741-41860864e90e" valueTypeId="7102c774-9975-45df-b7b1-1fc50643d308"/>
+    <valueManagerType typeId="894264e9-351a-4432-ad08-f91a94727b78" valueTypeId="2095abd7-38a9-45db-8621-6e704f4bff6a"/>
+  </producedTypes>
+  <name>АвторизованныйПользователь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Авторизованный пользователь</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>CatalogRef.Пользователи</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.НастройкиПрограммы</defaultForm>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <fillChecking>ShowError</fillChecking>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

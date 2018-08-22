@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5df5ceda-4c01-4a4e-8591-246bab1ab9c7">
+  <producedTypes>
+    <objectType typeId="1830c227-7f81-4005-8845-be841756ab4c" valueTypeId="0dec9bd4-8663-411b-afd6-6dd174498e10"/>
+    <refType typeId="a169194d-7289-4925-b24e-4b10dfd26f2e" valueTypeId="5a62e94f-ea81-4095-9a89-8617186df280"/>
+    <selectionType typeId="af3c3001-a346-4794-aef1-54a58761c93f" valueTypeId="e6e501e4-e8a8-41f8-9180-6b2754cf54a8"/>
+    <listType typeId="9ceeff20-dac0-4ac1-89e1-272ef95cc904" valueTypeId="2ba4f5d3-b92b-4558-8008-f76c3af5e9b7"/>
+    <managerType typeId="fcf207e5-1eaa-4c85-a030-8d6ea09466f3" valueTypeId="bdba42be-6a2f-4584-a0e9-05bcc55468f9"/>
+  </producedTypes>
+  <name>НастройкиREST</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки REST</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НастройкиREST.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НастройкиREST.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Настройка REST</value>
+  </extendedObjectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="cff7dd6b-e0fa-4ef2-8ea6-48506de77fef">
+      <name>Основная</name>
+      <description>Основная</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.НастройкиREST.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="d3ac22f3-07fe-45fa-8ad1-83e1f6d02178">
+    <name>АдресСервера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес сервера REST</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="dc4f11f0-a771-46e5-bedf-0385107b374a">
+    <name>СистемныйПользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Системный пользователь</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="cbc41986-8970-4075-a44b-05a3be3605ec">
+    <name>СистемныйПароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Системный пароль</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="9172a8f5-d679-4b5a-9a5f-3267650f48ea">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

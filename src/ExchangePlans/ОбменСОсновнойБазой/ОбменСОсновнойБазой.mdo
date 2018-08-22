@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2df5d484-1cbd-4d2e-8262-721b4005f248" thisNode="7c6a595a-c8f4-4cce-ba77-a9961f044b69">
+  <producedTypes>
+    <objectType typeId="6b8ad1bd-751f-4731-aaed-a237b6e46c3b" valueTypeId="95eb4141-30af-4b9d-b6f1-875366c102ca"/>
+    <refType typeId="999cd3ec-03b7-4760-a4bd-729185dd2cc6" valueTypeId="fd9d8f83-cc4b-4855-80c0-405d0afeb8e5"/>
+    <selectionType typeId="5e91a89c-965d-4f88-97fd-7cf5bda3111b" valueTypeId="17691c41-705e-4458-9021-5d0ef40e3ce3"/>
+    <listType typeId="8f38dfde-c092-4fb9-962e-1ed1b34a8b90" valueTypeId="de8c5843-057a-416f-9a12-a6c623642ed2"/>
+    <managerType typeId="ba7f2d43-19c1-4a40-b31c-01122b6513bd" valueTypeId="d6dff5f8-298e-49f9-93f0-603205f5a5fa"/>
+  </producedTypes>
+  <name>ОбменСОсновнойБазой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с основной базой</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ОбменСОсновнойБазой.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ОбменСОсновнойБазой.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Catalog.КонтактнаяИнформация</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Контрагенты</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Document.Заказы</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan.ОбменСОсновнойБазой.Form.ФормаУзла</defaultObjectForm>
+  <defaultListForm>ExchangePlan.ОбменСОсновнойБазой.Form.ФормаСписка</defaultListForm>
+  <forms uuid="eb0c744c-9664-4080-8d05-8c9fd5a9356d">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1b78ea69-8ebd-43c1-a09e-e7bbaf6ee5af">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="0ab3c5d2-fc74-44a5-91f0-7a8427e0f869">
+    <name>ПланыОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планы обмена</value>
+    </synonym>
+    <comment></comment>
+    <group>NavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:ExchangePlan>

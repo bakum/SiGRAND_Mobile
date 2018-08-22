@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e55fae10-b378-4254-99ad-a7f9a1434fb5">
+  <name>Замеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Замеры</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаМаркетингИПродажи</picture>
+  </picture>
+  <content>Document.Заказы</content>
+  <content>Document.Расчеты</content>
+</mdclass:Subsystem>

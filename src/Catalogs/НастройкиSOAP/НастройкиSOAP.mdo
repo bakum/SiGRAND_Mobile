@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73059211-2f8c-4d15-9305-788edf8709f3">
+  <producedTypes>
+    <objectType typeId="5d8bc243-7625-4bc6-8961-08aefba5c0f6" valueTypeId="e1ac6785-8a75-46cf-83b9-013f302be98f"/>
+    <refType typeId="dbb89360-9b5c-4e6c-b36e-050d441aeaf8" valueTypeId="e68e66da-0bb3-4fdc-979b-63346ddc0f75"/>
+    <selectionType typeId="15763622-d2ff-4c86-86ba-ff91be274318" valueTypeId="f6546d28-63d0-4146-8983-8902cb2d4796"/>
+    <listType typeId="eb7cd3c4-6238-4b12-945f-41cfd3dc8db0" valueTypeId="b699912f-3aa8-40a5-9a60-fc84e28177ca"/>
+    <managerType typeId="193c0aea-e02d-44bc-98ae-ee1ad971c7da" valueTypeId="baef6aeb-4004-4657-812d-f730c6c51ca0"/>
+  </producedTypes>
+  <name>НастройкиSOAP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки SOAP</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НастройкиSOAP.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НастройкиSOAP.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="1437fab3-1e67-49c3-8aee-1f565d94fd77">
+      <name>Основная</name>
+      <description>Основная</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.НастройкиSOAP.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="58f41f8b-da45-4759-884c-c9f26e9f164b">
+    <name>АдресСервера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес сервера SOAP</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="dfcc0bdb-b6ba-4111-8960-735b7f126adf">
+    <name>СистемныйПользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Системный пользователь</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="42c55dfc-0e7f-4bcb-8180-01f1c14ab644">
+    <name>СистемныйПароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Системный пароль</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="eee1ef7e-81a4-4577-a0d9-bb02f7675edb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="471ae46a-f77f-4d23-9dfe-8e8ab0853494">
+  <producedTypes>
+    <objectType typeId="ba28a174-c67b-4ff3-8f57-3aafc5a8bd1d" valueTypeId="4a0a4ef2-47c6-4671-88b3-fc3642112b02"/>
+    <refType typeId="1e8d69d1-ffbf-446f-a19d-4ab5d2af7760" valueTypeId="50fdb736-efd1-426d-ad08-fbef4c87b87a"/>
+    <selectionType typeId="87e830f2-0a3b-4fd6-8a20-965aae48d20a" valueTypeId="c1f22a7a-c8ac-4470-974e-1246a22c6235"/>
+    <listType typeId="92f313e6-092a-43e2-99f3-c9e4dc8ccb61" valueTypeId="576f4fab-6d28-475e-add1-38d12b5b996b"/>
+    <managerType typeId="d0300d07-5431-4021-8755-0d8c14f24508" valueTypeId="53f2a092-a58f-4dc5-bd44-2d14cc402543"/>
+  </producedTypes>
+  <name>Кассы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кассы</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Кассы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Кассы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Касса</value>
+  </extendedObjectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="9e06ea85-1af9-4913-a49e-90a75516e029">
+    <name>Ид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ид</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:Catalog>

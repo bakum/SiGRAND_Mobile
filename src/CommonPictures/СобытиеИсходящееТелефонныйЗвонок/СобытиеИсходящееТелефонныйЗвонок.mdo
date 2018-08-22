@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6b778c3-2bf3-4342-98a6-d55f49e1efbe">
+  <name>СобытиеИсходящееТелефонныйЗвонок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Событие исходящее: телефонный звонок</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

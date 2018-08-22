@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc5a4f2c-b007-4cd1-b699-0b1645011c28">
+  <producedTypes>
+    <objectType typeId="2f3e7a28-1864-483e-ba15-9f5e154421af" valueTypeId="72252823-8ad6-4591-95d9-45cede1ae530"/>
+    <refType typeId="9f402917-a2eb-4728-b842-045a0e1e69e1" valueTypeId="68c50596-fd76-4c4b-a32a-0d699944a551"/>
+    <selectionType typeId="c5339dc0-b686-4b50-9a1c-d56d8818c3e0" valueTypeId="89ecd966-ad3d-4934-bced-547e82069592"/>
+    <listType typeId="c0e42b57-f37f-466f-8cad-b78d9496b09b" valueTypeId="ec96c892-1a1a-46bd-bb0c-0eef61d6a831"/>
+    <managerType typeId="b5f432f2-18b8-4d06-b12b-a64dca377af0" valueTypeId="6a8b1db9-f120-4619-9e8c-d4e2a7157649"/>
+  </producedTypes>
+  <name>ИнформационныеКарты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информационные карты</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИнформационныеКарты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ИнформационныеКарты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Информационные карта</value>
+  </extendedObjectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ИнформационныеКарты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ИнформационныеКарты.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="2ac8461c-1dc9-4bb3-8a14-4f5401f1c192">
+    <name>Ид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ид</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="b2cc11e0-1b7b-4b73-8dca-bf3696ce6e0a">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="2274b7dd-232a-401b-8fa7-4cbf773d7c44">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a8f3e684-ff8f-4be4-a614-b7247dc6b03e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

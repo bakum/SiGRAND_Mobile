@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16f38e9b-0c50-4783-9d48-f14dac5c8e4f">
+  <producedTypes>
+    <selectionType typeId="79a02e72-40bc-472a-8205-e901f7df2e11" valueTypeId="d4924809-fe0f-436e-a584-a3c805d0d647"/>
+    <listType typeId="8cdfa445-bfe4-4534-b24d-07174b79f2bf" valueTypeId="0ac56b47-78eb-49eb-b854-6ea778ba65aa"/>
+    <managerType typeId="d72c946a-4c92-485d-9565-4dc7cf2466f9" valueTypeId="e75c49d0-3c6a-4d5b-bce5-2777d849378b"/>
+    <recordSetType typeId="76c0685d-5206-42f2-ae8e-871e40c925ba" valueTypeId="3bb33c60-5d57-4fa1-aa51-bb28c1c46d29"/>
+    <recordKeyType typeId="70ed306b-20cd-473a-bac3-55d5324a899a" valueTypeId="a1e96f71-3845-4bab-9531-e394d24a95c7"/>
+    <recordType typeId="d2139031-de10-45f4-a198-c3df61f32382" valueTypeId="9c046f48-6a97-4abd-a1c4-73aa7d3c6351"/>
+    <recordManagerType typeId="836f2c07-47af-463b-8669-475c970c92d3" valueTypeId="fe1d1d4b-0cc1-4468-8e1e-2d44686a159b"/>
+  </producedTypes>
+  <name>НастройкиПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки пользователя</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.НастройкиПользователя.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.НастройкиПользователя.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a8b7560a-5224-4869-aed2-f8393a23f902">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8556102a-1d37-4c4e-945d-73c0eee101bc">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="c426fd9c-cd77-441e-94cd-7621084dca8a">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="96e9914e-8790-4046-89eb-2ea1c01fcf48">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="d3f1e29a-74d1-4b52-9e6b-e41f1a5386bc">
+    <name>ПараметрыПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры пользователя</value>
+    </synonym>
+    <comment></comment>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.Пользователи</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:InformationRegister>

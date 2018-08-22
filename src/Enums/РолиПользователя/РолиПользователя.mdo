@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18fa1700-4233-499f-bbbb-c100ad16f4aa">
+  <producedTypes>
+    <refType typeId="cac35463-ca17-435c-b493-f707b97508cf" valueTypeId="5b2308c7-bc86-482e-bdda-00b42e3cc1c7"/>
+    <listType typeId="d7ffdeba-93ae-49a4-b9a8-da08b48b32f7" valueTypeId="f87bdf7e-92c9-4b01-b9ae-3dab41170184"/>
+    <managerType typeId="aa607e4c-42b8-4445-9b1c-0c5f7002d4f6" valueTypeId="39aec95e-7abe-4747-8f97-3c6cf0f41eff"/>
+  </producedTypes>
+  <name>РолиПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли пользователя</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8897b4c4-c18b-4170-b12e-7de2cab6bbc0">
+    <name>Администратор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администратор</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3518f94a-c0a4-45c6-8968-26f16aa5238c">
+    <name>Замерщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замерщик</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="85688ff7-204d-4301-b8e5-512275fb40b4">
+    <name>Диспетчер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диспетчер</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ec295791-7ea7-497c-8316-cac0ddd828b6">
+    <name>Директор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Директор</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>
